@@ -1,0 +1,12 @@
+Exadata is a database machine designed by Oracle that provides users with optimized functionality pertaining to enterprise class databases and their 
+associated workloads. Exadata is a composite database server machine that uses Oracle database software and the hardware server equipment developed by 
+Sun Microsystems.
+
+Oracle calls Exadata the fastest database server ever built, primarily due to its highly powerful and intelligent database, where query completion 
+time is 10 times faster, even in a huge data warehouse.
+
+Exadata is a database appliance that has the capability to provide support to a combination of database systems such as OLTP and OLAP, the transactional
+and analytical database systems. Exadata was initially designed in a collaborative effort between Oracle and HP, in which Oracle powered the Linux-based OS 
+and database software, while HP designed the system's server hardware. However, after Oracle acquired Sun Microsystems in 2010, Exadata Version 2 came 
+to use Sun Microsystems Storage Systems technology.
+
