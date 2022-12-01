@@ -1,0 +1,29 @@
+Star Schema in data warehouse, in which the center of the star can have one fact table and a number of associated dimension tables. It is known as star schema 
+as its structure resembles a star. The Star Schema data model is the simplest type of Data Warehouse schema. It is also known as Star Join Schema and is optimized 
+for querying large data sets.
+
+Snowflake Schema in data warehouse is a logical arrangement of tables in a multidimensional database such that the ER diagram resembles a snowflake shape. 
+A Snowflake Schema is an extension of a Star Schema, and it adds additional dimensions. The dimension tables are normalized which splits data into additional tables.
+
+Following is a key difference between Snowflake schema vs Star schema:
+
+Star Schema	                                                                    Snowflake Schema
+Hierarchies for the dimensions are stored in the dimensional table.	       Hierarchies are divided into separate tables.
+
+It contains a fact table surrounded by dimension tables.                 	One fact table surrounded by dimension table which are in turn surrounded by dimension table
+In a star schema, only single join creates the relationship 
+between the fact table and any dimension tables.	                        A snowflake schema requires many joins to fetch the data.
+
+Simple DB Design.                                                        	Very Complex DB Design.
+
+Denormalized Data structure and query also run faster.	                  Normalized Data Structure.
+
+High level of Data redundancy	                                            Very low-level data redundancy
+
+Single Dimension table contains aggregated data.	                         Data Split into different Dimension Tables.
+
+Cube processing is faster.	                                                Cube processing might be slow because of the complex join.
+
+Offers higher performing queries using Star Join Query Optimization.
+Tables may be connected with multiple dimensions.                          	The Snowflake schema is represented by centralized fact table which unlikely connected
+                                                                            with multiple dimensions.
